@@ -1,0 +1,27 @@
+source,target,effect,confidence,notes
+vitamin_B12,homocysteine,inhibits,High,B12 re-methylation lowers Hcy
+folate_plasma,homocysteine,inhibits,High,Folate lowers Hcy
+vitamin_B6,homocysteine,inhibits,Moderate,B6 supports transsulfuration
+vitamin_C,vitamin_E,boosts,Moderate-High,Ascorbate recycles α-tocopherol
+magnesium,vitamin_D,boosts,Moderate,Mg required for D activation/handling
+zinc,vitamin_A,boosts,Moderate-High,Zinc supports vitamin A transport/metabolism
+vitamin_C,indicator_iron_serum,boosts,High,Enhances non-heme Fe absorption
+calcium,indicator_iron_serum,inhibits,Moderate,Acute inhibition of Fe absorption
+zinc,indicator_iron_serum,inhibits,Moderate,Competitive inhibition when co-dosed
+vitamin_D,Hemoglobin,boosts,Low-Moderate,May reduce hepcidin→better erythropoiesis
+vitamin_D,ferritin,boosts,Low-Moderate,Mixed evidence; possible improvement in stores
+iron_deficiency_anemia,Hemoglobin,inhibits,High,Low Hb defines anemia
+iron_deficiency_anemia,MCV,inhibits,High,Microcytosis in IDA
+iron_deficiency_anemia,ferritin,inhibits,High,Depleted iron stores
+iron_deficiency_anemia,indicator_iron_serum,inhibits,High,Low serum iron
+iron_deficiency_anemia,total_iron_binding_capacity,boosts,High,TIBC rises in IDA
+iron_deficiency_anemia,transferrin,boosts,High,Transferrin increases in IDA
+magnesium,calcium,boosts,High,Mg regulates Ca transport & balance; deficiency disrupts Ca homeostasis.
+vitamin_D,magnesium,boosts,Moderate,Vitamin D increases Mg absorption; mutual activation.
+vitamin_E,iron_deficiency_anemia,inhibits,Moderate,Antioxidant protection may reduce anemia risk.
+vitamin_A,iron_deficiency_anemia,inhibits,Moderate-High,Vitamin A co-supplementation improves Hb and reduces IDA prevalence.
+zinc,Hemoglobin,boosts,Low-Moderate,Zinc supports erythropoiesis and immune-linked anemia improvement.
+vitamin_C,ferritin,boosts,Moderate,Slight improvement in ferritin over time with C supplementation.
+magnesium,vitamin_B6,boosts,Moderate,Mg acts as cofactor for pyridoxal kinase (B6 activation).
+calcium,magnesium,inhibits,Moderate,High Ca intake can compete with Mg absorption.
+vitamin_D,total_iron_binding_capacity,inhibits,Low,Possible decreased TIBC with improved iron utilization from D.

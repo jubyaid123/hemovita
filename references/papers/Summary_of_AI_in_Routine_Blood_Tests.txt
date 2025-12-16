@@ -1,0 +1,59 @@
+Title: Artificial Intelligence in Routine Blood Tests
+
+Authors: Miguel A. Santos-Silva, Nuno Sousa, João Carlos Sousa
+
+Published: March 24, 2024
+
+Link to the Paper: https://doi.org/10.3389/fmede.2024.1369265
+
+Problem Statement:
+This paper explores the integration of artificial intelligence (AI) in routine blood tests for 
+diagnosis, prognosis, and disease monitoring. Traditional clinical decision support systems rely on 
+predefined biomarkers, potentially missing hidden patterns in blood test data. AI has the potential to 
+extract subtle correlations that could improve diagnostic accuracy and enable early detection of 
+various conditions, including anemia, diabetes, heart disease, cancer, and COVID-19. However, challenges 
+remain in validating AI models, ensuring clinical interpretability, and overcoming regulatory barriers.
+
+Dataset Used:
+The study reviews 54 research papers applying machine learning to routine blood tests, categorized 
+according to the ICD-10 classification. The datasets in these studies include a variety of hematology 
+and biochemistry parameters, such as hemoglobin, white blood cells, glucose, cholesterol levels, and 
+liver function markers. These datasets come from hospitals, clinical trials, and public health records.
+
+Methodologies Used:
+The paper examines different machine learning (ML) and deep learning (DL) techniques used to analyze 
+routine blood test data for disease detection and prediction, including:
+
+      - Supervised Learning Models: Used for disease classification and prediction 
+        (e.g., decision trees, support vector machines, neural networks).
+
+      - Unsupervised Learning & Clustering: Applied for pattern recognition and anomaly detection in 
+        blood test data.
+
+      - Deep Learning (DL): Used for complex feature extraction, especially in identifying unknown 
+        relationships between blood markers and diseases.
+
+      - Federated Learning (FL): A method allowing AI models to be trained across multiple hospitals 
+        without sharing sensitive patient data, improving privacy and generalizability.
+
+Findings:
+- AI-Enhanced Diagnostics: Machine learning models significantly improve disease detection accuracy 
+  compared to traditional methods.
+- Expanded Biomarker Utility: AI identifies previously overlooked blood markers that correlate with 
+  chronic diseases, mental health conditions, and infectious diseases.
+- Personalized Risk Assessment: AI can assess individual disease risks based on blood test variations, 
+  enabling early intervention and prevention.
+- Regulatory & Validation Challenges: Despite AI’s potential, models need extensive external validation 
+  before clinical deployment to ensure bias-free, reliable predictions.
+
+Relevance to Project:
+This research is highly relevant to HemoVita AI, as it highlights how AI can be leveraged to analyze 
+routine bloodwork and uncover hidden nutrient deficiencies. The study reinforces the need for:
+✔ Data-driven AI models to improve diagnostic accuracy.
+✔ Integration with medical datasets for enhanced scalability.
+✔ Personalized recommendations for preventive healthcare.
+
+CITATION:
+Santos-Silva MA, Sousa N, Sousa JC. Artificial Intelligence in Routine Blood Tests. 
+Front. Med. Eng. 2024;2. doi: https://doi.org/10.3389/fmede.2024.1369265
+

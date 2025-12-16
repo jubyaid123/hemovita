@@ -1,0 +1,36 @@
+Title: "Deep forest model for diagnosing COVID-19 from routine blood tests"
+
+Authors: Maryam AlJame, Ayyub Imtiaz, Imtiaz Ahmad, Ameer Mohammed.
+
+Published: August 17, 2021
+
+Link to the Paper: https://pmc.ncbi.nlm.nih.gov/articles/PMC8371014/#Sec2
+
+Problem Statement: 
+  The paper addresses the early and accurate diagnosis of COVID-19. It reviews the techniquies used to acheive successful COVID-19 screening,
+  namely using the method called deep forest. The performance of the proposed deep forest model has an accuracy of about 99%, comparable to other well established 
+  machine learning techniques.
+
+
+Dataset Used: 
+  Two different datasets were used. The first is publicly accessible; and this set had 5644 patient records from March 2020 to April 2020 in 
+  Sao Paulo Brazil. This dataset contains cliical tests inclusing blood, urine, SARS-CoV-2, and rt-PCR test. The second dataset was retrevied from San 
+  Raffaele Hospital in Milan, Italy. It contained 279 patients which age, gender, blood tests, and so on.
+
+Methodologies Used:
+
+  Two publicly available COVID-19 datasets containing routine blood test data were used for training
+  Deep Forest algorithm was chosen instread of nueral network because of smaller dataset and low computational cost.
+  DF uses extra trees, XGBoost, LightGBM. These work together to enhances model accuraacy.
+
+Findings:
+
+  Deep forest model acheived 99.5% afccuracy, 95.28% sensitivty, 99.96% specificty in diagnosing COVID-19
+  Fast, cost effeciant alternative to PCR test
+  Model was reliable enough for screening patients.
+
+Relevance to Project: 
+  This research provides us with the outlook to inqure about DF approach. Additionally, it provides us with possible methods to train the model.
+
+Cited:
+  AlJame, M., Imtiaz, A., Ahmad, I., & Mohammed, A. (2021). Deep forest model for diagnosing COVID-19 from routine blood tests. Scientific reports, 11(1), 16682. https://doi.org/10.1038/s41598-021-95957-w

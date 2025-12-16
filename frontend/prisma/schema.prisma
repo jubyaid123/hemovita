@@ -1,0 +1,47 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+
+model User {
+  id           String    @id @default(cuid())
+  name         String?
+  email        String    @unique
+  passwordHash String
+  age          Int?
+  sex          String?   // later you can switch to an enum if you want
+  country      String?
+  pregnant     Boolean?
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+
+  labEntries   LabEntry[]
+}
+
+model LabEntry {
+  id            String   @id @default(cuid())
+  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  userId        String
+  createdAt     DateTime @default(now())
+
+  // store each marker as a nullable float
+  Hemoglobin      Float?
+  MCV             Float?
+  ferritin        Float?
+  vitamin_B12     Float?
+  folate_plasma   Float?
+  vitamin_D       Float?
+  magnesium       Float?
+  zinc            Float?
+  calcium         Float?
+  vitamin_C       Float?
+  vitamin_A       Float?
+  vitamin_E       Float?
+  vitamin_B6      Float?
+  homocysteine    Float?
+}

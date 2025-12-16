@@ -1,0 +1,37 @@
+micronutrient,biomarker,population_group,sex,age_min_years,age_max_years,pregnancy,fasting,cutoff_type,cutoff_value,unit,source,source_type,notes
+vitamin_A,serum_retinol,children_and_adults_nonpregnant,all,,,nonpregnant,unknown,deficiency,0.7,µmol/L,WHO vitamin A deficiency guidance,WHO,<0.70 µmol/L indicates subclinical vitamin A deficiency
+vitamin_A,serum_retinol,children_and_adults_nonpregnant,all,,,nonpregnant,unknown,severe_deficiency,0.35,µmol/L,WHO vitamin A deficiency guidance,WHO,<0.35 µmol/L indicates severe vitamin A deficiency
+vitamin_B6,plasma_PLP,adults,all,18.0,,na,unknown,deficiency,20.0,nmol/L,NIH / clinical lab references,clinical_consensus,<20 nmol/L often used for low vitamin B6 status
+vitamin_B12,serum_B12,adults,all,18.0,,na,unknown,deficiency,148.0,pmol/L,WHO/FAO consult + clinical usage,mixed_WHO_clinical,<148 pmol/L (~200 pg/mL) commonly used to define B12 deficiency
+vitamin_B12,serum_B12,adults,all,18.0,,na,unknown,deficiency,200.5,pg/mL,Derived from 148 pmol/L,derived,Unit conversion from pmol/L cutoff
+vitamin_C,plasma_vitamin_C,adults,all,18.0,,na,unknown,deficiency,11.0,µmol/L,Clinical nutrition literature,clinical_consensus,<11 µmol/L associated with clinical deficiency / scurvy
+vitamin_C,plasma_vitamin_C,adults,all,18.0,,na,unknown,marginal,23.0,µmol/L,Clinical nutrition literature,clinical_consensus,<23 µmol/L sometimes used for marginal vitamin C status
+vitamin_D,serum_25OHD,general,all,,,na,unknown,deficiency,30.0,nmol/L,Endocrine Society / IOF,non_WHO_consensus,<30 nmol/L often considered vitamin D deficiency
+vitamin_D,serum_25OHD,general,all,,,na,unknown,insufficiency,50.0,nmol/L,Endocrine Society / IOF,non_WHO_consensus,<50 nmol/L commonly used as insufficiency threshold
+vitamin_D,serum_25OHD,general,all,,,na,unknown,sufficiency,75.0,nmol/L,Endocrine Society / IOF,non_WHO_consensus,>=75 nmol/L often used as sufficiency
+vitamin_D,serum_25OHD,general,all,,,na,unknown,deficiency,12.0,ng/mL,Derived from nmol/L,derived,Equivalent to 30.0 nmol/L deficiency cutoff
+vitamin_D,serum_25OHD,general,all,,,na,unknown,insufficiency,20.0,ng/mL,Derived from nmol/L,derived,Equivalent to 50.0 nmol/L insufficiency cutoff
+vitamin_D,serum_25OHD,general,all,,,na,unknown,sufficiency,30.0,ng/mL,Derived from nmol/L,derived,Equivalent to 75.0 nmol/L sufficiency cutoff
+vitamin_E,plasma_alpha_tocopherol,adults,all,18.0,,na,unknown,deficiency,12.0,µmol/L,Clinical nutrition references,clinical_consensus,<12 µmol/L often used as low vitamin E
+magnesium,serum_magnesium,adults,all,18.0,,na,unknown,deficiency,0.75,mmol/L,Clinical lab references,clinical_consensus,<0.75 mmol/L often used for hypomagnesemia
+calcium,serum_total_calcium,adults,all,18.0,,na,unknown,low,2.1,mmol/L,Clinical lab references,clinical_consensus,<2.1 mmol/L commonly used for hypocalcemia (uncorrected)
+zinc,plasma_or_serum_zinc,females_over_10,female,10.0,,nonpregnant,yes,deficiency,70.0,µg/dL,IZiNCG / Hess et al.,IZiNCG,"<70 µg/dL suggested cutoff for women >10 y, fasting morning"
+zinc,plasma_or_serum_zinc,males_over_10,male,10.0,,na,yes,deficiency,74.0,µg/dL,IZiNCG / Hess et al.,IZiNCG,"<74 µg/dL suggested cutoff for men >10 y, fasting morning"
+zinc,plasma_or_serum_zinc,children_under_10,all,,10.0,na,no,deficiency,65.0,µg/dL,IZiNCG,IZiNCG,<65 µg/dL suggested cutoff for children <10 y nonfasting
+iron,serum_ferritin,children_6_59_months,all,0.5,5.0,na,unknown,deficiency,12.0,µg/L,WHO ferritin guideline,WHO,<12 µg/L WHO cutoff for depleted iron stores in young children
+iron,serum_ferritin,nonpregnant_adults,all,15.0,,nonpregnant,unknown,deficiency,15.0,µg/L,WHO ferritin guideline,WHO,<15 µg/L WHO cutoff for depleted iron stores in adults
+iron,body_iron_calculated,general,all,,,na,unknown,deficiency,0.0,mg/kg,Cook et al.; WHO background docs,research_consensus,<0 mg/kg body iron (negative stores) indicates deficiency
+iron,transferrin_saturation,adults,all,18.0,,na,unknown,deficiency,20.0,%,Hematology / nephrology guidelines,clinical_consensus,<20% TSAT commonly used for iron deficiency
+folate,plasma_or_serum_folate,adults,all,18.0,,na,unknown,deficiency,7.0,nmol/L,CDC / research,research_consensus,<7 nmol/L associated with risk of megaloblastic anemia
+folate,RBC_folate,adults,all,18.0,,na,unknown,deficiency,305.0,nmol/L,WHO RBC folate guideline background,WHO_research,<305 nmol/L used as deficiency threshold
+folate,RBC_folate,women_reproductive_age,female,15.0,49.0,nonpregnant,unknown,ntd_insufficient,748.0,nmol/L,WHO blood folate guideline,WHO,<748 nmol/L associated with increased neural tube defect risk
+folate,RBC_folate,women_reproductive_age,female,15.0,49.0,nonpregnant,unknown,ntd_optimal,906.0,nmol/L,WHO blood folate guideline,WHO,>=906 nmol/L recommended at population level to minimize NTD risk
+homocysteine_related,plasma_homocysteine,adults,all,18.0,,na,unknown,high_mild,15.0,µmol/L,Clinical guidelines,clinical_consensus,>15 µmol/L commonly used as elevated homocysteine
+homocysteine_related,plasma_homocysteine,adults,all,18.0,,na,unknown,high_moderate,30.0,µmol/L,Clinical guidelines,clinical_consensus,30–100 µmol/L often classified as moderate hyperhomocysteinemia
+homocysteine_related,plasma_homocysteine,adults,all,18.0,,na,unknown,high_severe,100.0,µmol/L,Clinical guidelines,clinical_consensus,>100 µmol/L often classified as severe hyperhomocysteinemia
+iron_related_anemia,hemoglobin,children_6_59_months,all,0.5,5.0,na,unknown,anemia,11.0,g/dL,WHO anemia guideline,WHO,<11.0 g/dL anemia cutoff for children 6–59 months
+iron_related_anemia,hemoglobin,pregnant_women,female,15.0,,pregnant,unknown,anemia,11.0,g/dL,WHO anemia guideline,WHO,<11.0 g/dL anemia cutoff for pregnant women
+iron_related_anemia,hemoglobin,nonpregnant_women,female,15.0,,nonpregnant,unknown,anemia,12.0,g/dL,WHO anemia guideline,WHO,<12.0 g/dL anemia cutoff for non-pregnant women
+iron_related_anemia,hemoglobin,men_15plus,male,15.0,,na,unknown,anemia,13.0,g/dL,WHO anemia guideline,WHO,<13.0 g/dL anemia cutoff for men >=15 years
+iron_related_anemia,MCV,adults,all,18.0,,na,unknown,microcytosis,80.0,fL,Hematology references,clinical_consensus,<80 fL used for microcytic anemia
+iron_related_anemia,MCV,adults,all,18.0,,na,unknown,macrocytosis,100.0,fL,Hematology references,clinical_consensus,>100 fL used for macrocytic anemia

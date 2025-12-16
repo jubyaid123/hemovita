@@ -1,0 +1,52 @@
+Title: "Personalized Nutritional Therapy Based on Blood Data Analysis for Malaise Patients"
+
+Authors: Minoru Arakaki, Li Li, Toshiyuki Kaneko, et al.
+
+Published: October 18, 2021
+
+Link to the Paper: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8538692/
+
+Problem Statement: The paper addresses the issue of undiagnosed malaise and pre-disease conditions 
+that standard medical practices often overlook. It highlights the potential of using detailed blood 
+data analysis to detect these conditions early and provide personalized nutritional interventions
+as an alternative to conventional drug treatments.
+
+Dataset Used: The study analyzed data from 253 patients who visited an outpatient clinic between 2018 and 2020. 
+These patients, aged 19 to 78 years, complained of malaise and underwent consistent nutritional therapy for 
+over three months, with blood data analyses conducted before and after the therapy.
+
+Methodologies Used: The researchers employed "Kaneko's Method," which involves:
+
+      Blood Data Analysis: Interpreting blood chemistry and complete blood count (CBC) data to       
+      identify deviations from optimal ranges, indicating specific nutrient deficiencies or organ 
+      dysfunctions.
+
+      Personalized Nutritional Therapy: Prescribing necessary nutrients such as proteins, vitamins, 
+      minerals, essential fatty acids, enzymes, and probiotics tailored to each patient's blood data. 
+      Dosages were adjusted based on follow-up blood tests every three months.
+
+      Evaluation Tools: Utilizing the Anti-Aging QOL Common Questionnaire (AAQC-Questionnaire) to 
+      assess the severity of physical and mental symptoms before and after the nutritional intervention.
+
+Findings: The study found significant improvements in patients' symptoms following personalized nutritional therapy:
+
+      Symptom Reduction: All symptoms tended to decrease after the therapy. Specifically, 23 out of 26 
+      physical symptoms and 15 out of 16 mental symptoms showed statistically significant improvements.
+
+      Total Severity Score: The mean total severity score decreased from 90.56 before therapy to 82.02 after 
+      three months of therapy.
+
+      Clinical Implication: The findings suggest that personalized nutritional interventions based on 
+      detailed blood data analysis can effectively address chronic symptoms and pre-disease conditions, offering a viable 
+      alternative to traditional drug treatments.
+
+Relevance to Project: This research provides us with an approach for developing an AI-powered system aimed at analyzing blood test results to 
+detect nutrient deficiencies and offer personalized supplement recommendations.
+
+CITATION:
+Arakaki M, Li L, Kaneko T, Arakaki H, Fukumura H, Osaki C, Yonamine M, Fukuzawa Y. Personalized Nutritional Therapy Based on Blood Data Analysis for Malaise Patients. Nutrients. 2021 Oct 18;13(10):3641. doi: 10.3390/nu13103641. PMID: 34684641; PMCID: PMC8538692.
+
+
+
+
+

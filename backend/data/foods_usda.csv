@@ -1,0 +1,78 @@
+Food,Category,Bundle,Typical_serve_g,Diet_tag,FDC_ID,Description,DataType
+Beef liver,Meat,iron,85,omnivore,2706153,"Liver, beef",Survey (FNDDS)
+Oysters,Fish/Shellfish,iron,85,pescatarian/omnivore,2708747,Dressing with oysters,Survey (FNDDS)
+Beef (lean),Meat,iron,85,omnivore,2705829,"Beef, steak, ribeye, lean and fat eaten",Survey (FNDDS)
+Lentils (cooked),Legume,iron,100,vegan,175254,"Lentils, mature seeds, cooked, boiled, with salt",SR Legacy
+Chickpeas (cooked),Legume,iron,100,vegan,2707414,"Chickpeas, NFS",Survey (FNDDS)
+Spinach (cooked),Vegetable,iron,90,vegan,169400,"Malabar spinach, cooked",SR Legacy
+Pumpkin seeds,Nut/Seed,iron,28,vegan,2707580,"Pumpkin seeds, salted",Survey (FNDDS)
+Lentils,Legume,folate,100,vegan,2707431,Lentil curry,Survey (FNDDS)
+Beef liver,Meat,folate,85,omnivore,2706153,"Liver, beef",Survey (FNDDS)
+Asparagus,Vegetable,folate,90,vegan,168389,"Asparagus, raw",SR Legacy
+Spinach,Vegetable,folate,90,vegan,2709628,"Spinach, creamed",Survey (FNDDS)
+Beets,Vegetable,folate,90,vegan,2710071,"Beets, pickled",Survey (FNDDS)
+Fortified grains,Processed/Plant-based,folate,100,vegan,171000,"Babyfood, Multigrain whole grain cereal, dry fortified",SR Legacy
+Avocado,Fruit,folate,100,vegan,2710208,Avocado dressing,Survey (FNDDS)
+Sweet potatoes,Vegetable,vitamin_A,90,vegan,2709715,Sweet potato tots,Survey (FNDDS)
+Carrots,Vegetable,vitamin_A,90,vegan,2709660,"Carrots, raw",Survey (FNDDS)
+Beef liver,Meat,vitamin_A,85,omnivore,2706153,"Liver, beef",Survey (FNDDS)
+Spinach,Vegetable,vitamin_A,90,vegan,2709628,"Spinach, creamed",Survey (FNDDS)
+Kale,Vegetable,vitamin_A,90,vegan,168421,"Kale, raw",SR Legacy
+Red bell peppers,Vegetable,vitamin_A,90,vegan,2258590,"Peppers, bell, red, raw",Foundation
+Cantaloupe,Fruit,vitamin_A,100,vegan,2709343,Cantaloupe nectar,Survey (FNDDS)
+Chickpeas (cooked),Legume,vitamin_B6,100,vegan,2707414,"Chickpeas, NFS",Survey (FNDDS)
+Salmon,Fish/Shellfish,vitamin_B6,85,pescatarian/omnivore,2706850,Lomi salmon,Survey (FNDDS)
+Tuna,Fish/Shellfish,vitamin_B6,85,pescatarian/omnivore,175160,"Fish, tuna salad",SR Legacy
+Potatoes,Other,vitamin_B6,100,vegan,2709510,Potato patty,Survey (FNDDS)
+Bananas,Other,vitamin_B6,100,vegan,173945,"Bananas, dehydrated, or banana powder",SR Legacy
+Chicken breast,Meat,vitamin_B6,85,omnivore,2705964,"Chicken breast, rotisserie, skin not eaten",Survey (FNDDS)
+Avocado,Fruit,vitamin_B6,100,vegan,2710208,Avocado dressing,Survey (FNDDS)
+Clams,Other,vitamin_B12,100,pescatarian/omnivore,2706564,Clams Casino,Survey (FNDDS)
+Beef liver,Meat,vitamin_B12,85,omnivore,2706153,"Liver, beef",Survey (FNDDS)
+Trout,Fish/Shellfish,vitamin_B12,85,pescatarian/omnivore,2706306,"Fish, trout, fried",Survey (FNDDS)
+Salmon,Fish/Shellfish,vitamin_B12,85,pescatarian/omnivore,2706850,Lomi salmon,Survey (FNDDS)
+Tuna,Fish/Shellfish,vitamin_B12,85,pescatarian/omnivore,175160,"Fish, tuna salad",SR Legacy
+Fortified cereals,Processed/Plant-based,vitamin_B12,100,vegan,171358,"Babyfood, cereal, barley, dry fortified",SR Legacy
+Eggs,Other,vitamin_B12,100,omnivore,747997,"Eggs, Grade A, Large, egg white",Foundation
+Red bell peppers,Vegetable,vitamin_C,90,vegan,2258590,"Peppers, bell, red, raw",Foundation
+Kiwi,Fruit,vitamin_C,100,vegan,2709239,"Kiwi fruit, raw",Survey (FNDDS)
+Oranges,Fruit,vitamin_C,100,vegan,2709171,"Orange, raw",Survey (FNDDS)
+Strawberries,Other,vitamin_C,100,vegan,2709283,"Strawberries, raw",Survey (FNDDS)
+Broccoli,Vegetable,vitamin_C,90,vegan,2709656,Fried broccoli,Survey (FNDDS)
+Brussels sprouts,Vegetable,vitamin_C,90,vegan,2709772,"Brussels sprouts, raw",Survey (FNDDS)
+Pineapple,Fruit,vitamin_C,100,vegan,2709260,"Pineapple, raw",Survey (FNDDS)
+Salmon,Fish/Shellfish,vitamin_D,85,pescatarian/omnivore,2706850,Lomi salmon,Survey (FNDDS)
+Trout,Fish/Shellfish,vitamin_D,85,pescatarian/omnivore,2706306,"Fish, trout, fried",Survey (FNDDS)
+Sardines,Fish/Shellfish,vitamin_D,85,pescatarian/omnivore,2707033,Sardine sandwich,Survey (FNDDS)
+Egg yolks,Other,vitamin_D,100,omnivore,173428,"Egg, yolk, dried",SR Legacy
+Fortified milk,Dairy,vitamin_D,240,vegetarian,172221,"Yogurt, chocolate, nonfat milk, fortified with vitamin D",SR Legacy
+Fortified orange juice,Fruit,vitamin_D,100,vegan,2003591,"Orange juice, no pulp, not fortified, from concentrate, refrigerated",Foundation
+Fortified cereals,Processed/Plant-based,vitamin_D,100,vegan,171358,"Babyfood, cereal, barley, dry fortified",SR Legacy
+Sunflower seeds,Nut/Seed,vitamin_E,28,vegan,2707584,"Sunflower seeds, flavored",Survey (FNDDS)
+Almonds,Nut/Seed,vitamin_E,28,vegan,2707533,Almond butter,Survey (FNDDS)
+Hazelnuts,Nut/Seed,vitamin_E,28,vegan,2707502,Hazelnuts,Survey (FNDDS)
+Avocado,Fruit,vitamin_E,100,vegan,2710208,Avocado dressing,Survey (FNDDS)
+Spinach,Vegetable,vitamin_E,90,vegan,2709628,"Spinach, creamed",Survey (FNDDS)
+Wewheat germ oil,Other,vitamin_E,100,vegan,171014,"Oil, wheat germ",SR Legacy
+Peanuts,Nut/Seed,vitamin_E,28,vegan,1750348,"Oil, peanut",Foundation
+Pumpkin seeds,Nut/Seed,magnesium,28,vegan,2707580,"Pumpkin seeds, salted",Survey (FNDDS)
+Almonds,Nut/Seed,magnesium,28,vegan,2707533,Almond butter,Survey (FNDDS)
+Spinach,Vegetable,magnesium,90,vegan,2709628,"Spinach, creamed",Survey (FNDDS)
+Black beans,Legume,magnesium,100,vegan,2707395,Black bean salad,Survey (FNDDS)
+Tofu,Processed/Plant-based,magnesium,100,vegan,167722,Tofu yogurt,SR Legacy
+Avocado,Fruit,magnesium,100,vegan,2710208,Avocado dressing,Survey (FNDDS)
+Cashews,Nut/Seed,magnesium,28,vegan,2707536,Cashew butter,Survey (FNDDS)
+Yogurt,Dairy,calcium,240,vegetarian,167722,Tofu yogurt,SR Legacy
+Milk,Dairy,calcium,240,vegetarian,2705383,"Milk, human",Survey (FNDDS)
+Cheese,Dairy,calcium,240,vegetarian,2705770,"Cheese, processed cheese food",Survey (FNDDS)
+Tofu (calcium-set),Processed/Plant-based,calcium,100,vegan,174304,"Tofu, fried, prepared with calcium sulfate",SR Legacy
+Sardines,Fish/Shellfish,calcium,85,pescatarian/omnivore,2707033,Sardine sandwich,Survey (FNDDS)
+Fortified plant milks,Dairy,calcium,240,vegetarian,172221,"Yogurt, chocolate, nonfat milk, fortified with vitamin D",SR Legacy
+Kale,Vegetable,calcium,90,vegan,168421,"Kale, raw",SR Legacy
+Oysters,Fish/Shellfish,zinc,85,pescatarian/omnivore,2708747,Dressing with oysters,Survey (FNDDS)
+Beef,Meat,zinc,85,omnivore,2706371,Beef burgundy,Survey (FNDDS)
+Pork,Meat,zinc,85,omnivore,169157,"Pork, pickled pork hocks",SR Legacy
+Pumpkin seeds,Nut/Seed,zinc,28,vegan,2707580,"Pumpkin seeds, salted",Survey (FNDDS)
+Chickpeas,Legume,zinc,100,vegan,2707414,"Chickpeas, NFS",Survey (FNDDS)
+Cashews,Nut/Seed,zinc,28,vegan,2707536,Cashew butter,Survey (FNDDS)
+Yogurt,Dairy,zinc,240,vegetarian,167722,Tofu yogurt,SR Legacy

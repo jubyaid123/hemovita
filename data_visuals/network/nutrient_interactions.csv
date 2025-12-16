@@ -1,0 +1,24 @@
+source,target,relation,mechanism,evidence_weight
+Iron,Zinc,inhibits,competition at high supplemental doses,0.7
+Iron,Ferritin,stores_as,iron storage marker,1.0
+Iron,Hemoglobin,enables,heme synthesis,0.95
+Transferrin saturation,Iron,transports,iron transport capacity,0.9
+Serum iron,Transferrin saturation,supports,component of TSAT,0.9
+Calcium,Iron,inhibits,competitive inhibition in gut,0.85
+Calcium,Phosphate,balances_with,bone mineral homeostasis,0.8
+Vitamin C,Iron,enhances,non-heme iron absorption,0.95
+Vitamin C,Vitamin E,regenerates,reduces oxidized tocopherol,0.8
+Vitamin A,Iron,enhances,iron mobilization/utilization,0.8
+Zinc,Iron,inhibits,competition at high supplemental doses,0.75
+Zinc,Vitamin A,supports,RBP synthesis/transport,0.75
+Copper,Iron,requires,ceruloplasmin-dependent mobilization,0.85
+Vitamin D (25OHD),Calcium,enhances,intestinal calcium absorption,0.95
+Magnesium,Vitamin D (25OHD),requires,vit D activation (hydroxylases),0.9
+Folate,Homocysteine,lowers,remethylation pathway,0.95
+Vitamin B12,Homocysteine,lowers,methylcobalamin cofactor,0.95
+Vitamin B12,Folate,interdependent,methyl-folate trap,0.9
+Vitamin B6,Homocysteine,lowers,transsulfuration pathway,0.9
+Selenium,Iodine,supports,deiodinase enzymes (T4→T3),0.85
+Vitamin K,Calcium,coordinates,osteocalcin γ-carboxylation,0.8
+Vitamin K,Vitamin D (25OHD),coordinates,bone health pathways,0.7
+Inflammation (CRP↑),Ferritin,raises,acute phase response,0.9

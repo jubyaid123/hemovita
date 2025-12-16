@@ -1,0 +1,13 @@
+Source,Target,Effect
+Vitamin C,Iron,enhances
+Vitamin D,Calcium,enhances
+Calcium,Iron,inhibits
+Vitamin B12,Folate,required for
+Folate,Homocysteine,reduces
+Vitamin B12,Homocysteine,reduces
+Vitamin B6,Homocysteine,reduces
+Magnesium,Vitamin D,activates
+Zinc,Vitamin A,transports
+Iron,Hemoglobin,required for
+Iron,MCV,reduces
+Folate,MCV,increases

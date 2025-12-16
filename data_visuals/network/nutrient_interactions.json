@@ -1,0 +1,239 @@
+{
+  "directed": true,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "Iron"
+    },
+    {
+      "id": "Ferritin"
+    },
+    {
+      "id": "Hemoglobin"
+    },
+    {
+      "id": "Transferrin saturation"
+    },
+    {
+      "id": "Serum iron"
+    },
+    {
+      "id": "Calcium"
+    },
+    {
+      "id": "Vitamin C"
+    },
+    {
+      "id": "Vitamin A"
+    },
+    {
+      "id": "Zinc"
+    },
+    {
+      "id": "Copper"
+    },
+    {
+      "id": "Vitamin D (25OHD)"
+    },
+    {
+      "id": "Magnesium"
+    },
+    {
+      "id": "Phosphate"
+    },
+    {
+      "id": "Folate"
+    },
+    {
+      "id": "RBC folate"
+    },
+    {
+      "id": "Vitamin B12"
+    },
+    {
+      "id": "Vitamin B6"
+    },
+    {
+      "id": "Homocysteine"
+    },
+    {
+      "id": "Iodine"
+    },
+    {
+      "id": "Selenium"
+    },
+    {
+      "id": "Vitamin E"
+    },
+    {
+      "id": "Vitamin K"
+    },
+    {
+      "id": "Inflammation (CRP\u2191)"
+    }
+  ],
+  "links": [
+    {
+      "relation": "inhibits",
+      "mechanism": "competition at high supplemental doses",
+      "weight": 0.7,
+      "source": "Iron",
+      "target": "Zinc"
+    },
+    {
+      "relation": "stores_as",
+      "mechanism": "iron storage marker",
+      "weight": 1.0,
+      "source": "Iron",
+      "target": "Ferritin"
+    },
+    {
+      "relation": "enables",
+      "mechanism": "heme synthesis",
+      "weight": 0.95,
+      "source": "Iron",
+      "target": "Hemoglobin"
+    },
+    {
+      "relation": "transports",
+      "mechanism": "iron transport capacity",
+      "weight": 0.9,
+      "source": "Transferrin saturation",
+      "target": "Iron"
+    },
+    {
+      "relation": "supports",
+      "mechanism": "component of TSAT",
+      "weight": 0.9,
+      "source": "Serum iron",
+      "target": "Transferrin saturation"
+    },
+    {
+      "relation": "inhibits",
+      "mechanism": "competitive inhibition in gut",
+      "weight": 0.85,
+      "source": "Calcium",
+      "target": "Iron"
+    },
+    {
+      "relation": "balances_with",
+      "mechanism": "bone mineral homeostasis",
+      "weight": 0.8,
+      "source": "Calcium",
+      "target": "Phosphate"
+    },
+    {
+      "relation": "enhances",
+      "mechanism": "non-heme iron absorption",
+      "weight": 0.95,
+      "source": "Vitamin C",
+      "target": "Iron"
+    },
+    {
+      "relation": "regenerates",
+      "mechanism": "reduces oxidized tocopherol",
+      "weight": 0.8,
+      "source": "Vitamin C",
+      "target": "Vitamin E"
+    },
+    {
+      "relation": "enhances",
+      "mechanism": "iron mobilization/utilization",
+      "weight": 0.8,
+      "source": "Vitamin A",
+      "target": "Iron"
+    },
+    {
+      "relation": "inhibits",
+      "mechanism": "competition at high supplemental doses",
+      "weight": 0.75,
+      "source": "Zinc",
+      "target": "Iron"
+    },
+    {
+      "relation": "supports",
+      "mechanism": "RBP synthesis/transport",
+      "weight": 0.75,
+      "source": "Zinc",
+      "target": "Vitamin A"
+    },
+    {
+      "relation": "requires",
+      "mechanism": "ceruloplasmin-dependent mobilization",
+      "weight": 0.85,
+      "source": "Copper",
+      "target": "Iron"
+    },
+    {
+      "relation": "enhances",
+      "mechanism": "intestinal calcium absorption",
+      "weight": 0.95,
+      "source": "Vitamin D (25OHD)",
+      "target": "Calcium"
+    },
+    {
+      "relation": "requires",
+      "mechanism": "vit D activation (hydroxylases)",
+      "weight": 0.9,
+      "source": "Magnesium",
+      "target": "Vitamin D (25OHD)"
+    },
+    {
+      "relation": "lowers",
+      "mechanism": "remethylation pathway",
+      "weight": 0.95,
+      "source": "Folate",
+      "target": "Homocysteine"
+    },
+    {
+      "relation": "lowers",
+      "mechanism": "methylcobalamin cofactor",
+      "weight": 0.95,
+      "source": "Vitamin B12",
+      "target": "Homocysteine"
+    },
+    {
+      "relation": "interdependent",
+      "mechanism": "methyl-folate trap",
+      "weight": 0.9,
+      "source": "Vitamin B12",
+      "target": "Folate"
+    },
+    {
+      "relation": "lowers",
+      "mechanism": "transsulfuration pathway",
+      "weight": 0.9,
+      "source": "Vitamin B6",
+      "target": "Homocysteine"
+    },
+    {
+      "relation": "supports",
+      "mechanism": "deiodinase enzymes (T4\u2192T3)",
+      "weight": 0.85,
+      "source": "Selenium",
+      "target": "Iodine"
+    },
+    {
+      "relation": "coordinates",
+      "mechanism": "osteocalcin \u03b3-carboxylation",
+      "weight": 0.8,
+      "source": "Vitamin K",
+      "target": "Calcium"
+    },
+    {
+      "relation": "coordinates",
+      "mechanism": "bone health pathways",
+      "weight": 0.7,
+      "source": "Vitamin K",
+      "target": "Vitamin D (25OHD)"
+    },
+    {
+      "relation": "raises",
+      "mechanism": "acute phase response",
+      "weight": 0.9,
+      "source": "Inflammation (CRP\u2191)",
+      "target": "Ferritin"
+    }
+  ]
+}
