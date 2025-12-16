@@ -21,10 +21,12 @@ export const REF: Record<
   magnesium: { low: 1.7, high: 2.3 },
   calcium: { low: 8.6, high: 10.2 },
   zinc: { low: 60, high: 120 },
-  homocysteine: { low: 5, high: 15 }
+  homocysteine: { low: 5, high: 15 },
 };
 
-export function classifyValue(marker: string, value?: number) {
+export type MarkerStatus = "low" | "normal" | "high" | "unknown";
+
+export function classifyValue(marker: string, value?: number): MarkerStatus {
   const r = REF[marker];
   if (value == null || Number.isNaN(value) || !r) return "unknown";
   if (r.low != null && value < r.low) return "low";

@@ -171,7 +171,13 @@ export function ProfileForm({ user }: { user: any }) {
           render={({ field }) => (
             <FormItem>
               <FormLabel>Country</FormLabel>
-              <FormControl><Input {...field} /></FormControl>
+              <FormControl>
+                <Input
+                  {...field}
+                  value={field.value ?? ""} // <-- convert null/undefined to ""
+                  onChange={(e) => field.onChange(e.target.value === "" ? null : e.target.value)}
+                />
+              </FormControl>
             </FormItem>
           )}
         />

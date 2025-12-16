@@ -33,7 +33,11 @@ export async function SiteHeader() {
                   </Link>
                 ))}
               </div>
-              <NavUserMenu user={session.user} />
+              <NavUserMenu user={{
+                    id: session.user.id,
+                    name: session.user.name ?? null,
+                    email: session.user.email ?? "",
+                }} />
             </>
           ) : (
             <div className="flex items-center gap-3">

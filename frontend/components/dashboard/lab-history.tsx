@@ -23,7 +23,7 @@ export function LabHistory({ initialEntries }: { initialEntries: LabEntry[] }) {
     })),
   );
 
-  const [isPending, startTransition] = useTransition();
+  const [isPending] = useTransition();
 
   async function handleDelete(id: string) {
     try {
