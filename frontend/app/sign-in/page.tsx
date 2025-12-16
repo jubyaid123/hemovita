@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 import { SignInForm } from "@/components/auth/sign-in-form";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
 export const metadata = {
@@ -29,3 +29,4 @@ export default function SignInPage() {
     </div>
   );
 }
+
