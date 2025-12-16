@@ -3,7 +3,7 @@ import { redirect } from "next/navigation";
 
 import { getServerAuthSession } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
-import { Card, CardHeader, CardTitle, CardDescription, CardContent } from "@/components/ui/card";
+import { Card, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { LabHistory } from "@/components/dashboard/lab-history";
 
@@ -42,3 +42,4 @@ export default async function DashboardPage() {
     </div>
   );
 }
+
